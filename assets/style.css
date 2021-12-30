@@ -6,10 +6,11 @@ box-sizing: border-box;
 
 header {
     width: 100%;
-    height: 80px;
+    height: 180px;
     background-color: grey;
     display: inline-flex;
     justify-content: space-between;
+    border-bottom: 4px solid black;
 }
 
 header h2{
@@ -40,15 +41,17 @@ header nav ul li a {
 footer {
     width: 100%;
     height: 100px;
-    background-color: green;
+    background-color: grey;
     display: inline-flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 footer h3 {
     font-size: 40px;
     color: black;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 20px;
     padding: 0;
 }
@@ -56,6 +59,8 @@ footer h3 {
 footer  nav ul  {
     margin-right: 20px;
     font-size: 20px;
+    border-left: 4px solid black;
+
 }
 
 footer nav ul li {
@@ -63,6 +68,8 @@ footer nav ul li {
     margin-right: 25px;
     justify-content: space-around;
     line-height: 60px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 footer nav ul li a {
@@ -74,8 +81,8 @@ footer nav ul li a {
 section.about-me {
 width: 100%;
 height: 150px;
-background-color: blanchedalmond;
 display: inline-flex;
+background-color: grey;
 }
 
 section.about-me h2{
@@ -87,24 +94,156 @@ section.about-me h2{
 
 div.about-me-para{
     font-size: 20px;
-    margin: 20px 20px 40px 60px;
+    margin: 20px 20px 40px 230px;
     flex-wrap: wrap;
     overflow: hidden;
     text-align: center;
     border-left: 4px solid black;
 }
 
-  section.work {
+  section.work-examples {
     width: 100%;
-    height: 800px;
-    background-color: beige;
+    height: 550px;
     display: inline-flex;
+    background-color: grey;
 }
+
+
+section.work{
+    width: 30%;
+    height: 300px;
+    background-color: grey;
+    
+}
+
+
+
 
 section.work h2 {
     margin-left: 80px;
     font-size: 40px;
     color: black;
     margin-top: 20px;
+
+
 }
 
+div.self-report{
+    width: 70%;
+    height: 550px;
+    background-color: grey;
+    border-left: 4px solid black;
+    margin: 0px 100px 40px 100px;
+}
+
+
+div.image-container {
+width: 100%;
+height: 250px;
+margin-left: 50px;
+padding-right: 50px;
+}
+
+div.image-container img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border: 2px solid aquamarine;
+    
+}
+
+div.content-header {
+    width: 180px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 16px;
+    margin-left: 50px;
+    position: absolute;
+    top: 400px;  
+}
+
+div.content-header h2{
+    font-size: 20px;
+   
+}
+
+div.big-cont {
+    width: 100%;
+    background-color: grey;
+    height: 100px;
+    margin-top: 20px;
+display: inline-flex;
+justify-content: space-between;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+  border: solid 2px aquamarine;
+  
+}
+
+div.image-container-2 {
+    width: 40%;
+    height: 100px;
+    margin-left: 50px; 
+}
+
+div.image-container-3 {
+    height: 100px;
+width: 40%;
+}
+
+div.image-container-2 img{
+    width: 100%;
+    height: 100px;
+    border-bottom:solid 2px aquamarine ;
+
+}
+
+div.image-container-3 img{
+    width: 100%;
+    height: 100px;
+    border-bottom:solid 2px aquamarine ;
+}
+
+div.content-header-2 {
+    position: absolute;
+    top: 540px;
+    left: 490px;
+    background: aquamarine;
+    width: 120px;
+    z-index: 999;
+    padding: 2px 2px;
+}
+
+div.content-header-3 {
+    position: absolute;
+    top: 540px;
+    left: 905px;
+    background: aquamarine;
+    width: 120px;
+    z-index: 999;
+    padding: 2px 2px;
+    
+}
+
+div.content-header-2 p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+div.content-header-3 p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+div.big-cont-2 {
+    width: 100%;
+    background-color: grey;
+    height: 100px;
+    margin-top: 20px;
+display: inline-flex;
+justify-content: space-between;
+}
